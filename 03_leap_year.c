@@ -2,7 +2,7 @@
 // Also consider the end of the centuries. Write algorithm and draw flowchart for the same.
 
 #include <stdio.h>
-int main() {
+int main(void) {
    int year;
    printf("Enter a year: ");
    scanf("%d", &year);
