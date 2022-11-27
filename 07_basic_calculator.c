@@ -1,9 +1,38 @@
-/*
-Write a menu driven program to perform simple arithmetic operations 
-based on the user's choice. 
-The user will indicate the operation to be performed 
-using the signs e.g. + for addition, etc. 
-Write an algorithm and draw flowchart for same
+/**
+ * 
+ * Question
+ * --------
+ * Write a menu driven program to perform simple arithmetic operations 
+ * based on the user's choice. 
+ * The user will indicate the operation to be performed 
+ * using the signs e.g. + for addition, etc. 
+ * Write an algorithm and draw flowchart for same
+ * 
+ * 
+ * 
+ * Algorithm
+ * ---------
+ * 01. START
+ * 02. PRINT Basic Calculator
+ * 03. PRINT Enter first number
+ * 04. INPUT a
+ * 05. PRINT ENter second number
+ * 06. INPUT b
+ * 07. PRINT "
+ *          Select Operator
+ *      [+] Addition
+ *      [-] Substraction
+ *      [*] Multiplication
+ *      [/] Division
+ * 
+ *      Enter your symbol:"
+ * 08. INPUT choice
+ * 09. IF choice == '+' THEN PRINT Result is a + b
+ * 10. ELSE IF choice == '-' THEN PRINT Result is a - b
+ * 11. ELSE IF choice == '*' THEN PRINT Result is a * b
+ * 12. ELSE IF choice == '/' THEN PRINT Result is a / b
+ * 13. ELSE PRINT Invalid Operator
+ * 14. END
 */
 
 #include <stdio.h>

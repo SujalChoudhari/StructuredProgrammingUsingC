@@ -1,15 +1,15 @@
 /**
- * 
+ *
  * Question
  * --------
- * Write a program to swap two variables values with and without using third variables. 
+ * Write a program to swap two variables values with and without using third variables.
  * Write algorithm and draw flowchart for the same.
- * 
- * 
- * 
+ *
+ *
+ *
  * Algorithm
  * ---------
- * 
+ *
  * 1. START
  * 2. PRINT Enter two numbers
  * 3. INPUT a,b
@@ -19,29 +19,29 @@
  *          b = temp
  * 6. PRINT Numbers after swapping (a,b)
  * 7. END
-*/
+ */
 
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
 
     // init numbers
-    int a,b;
+    int a, b;
     printf("Enter two numbers (seperate by comma): ");
-    scanf("%d,%d",&a,&b);
+    scanf("%d,%d", &a, &b);
 
     printf("Before Swapping");
-    printf("\nA = %d \n",a);
-    printf("B = %d \n\n",b);
+    printf("\nA = %d \n", a);
+    printf("B = %d \n\n", b);
 
     // swapping
-    int temp =a;
+    int temp = a;
     a = b;
     b = temp;
 
     // display swapped numbers
     printf("After Swapping");
-    printf("\nA = %d \n",a);
-    printf("B = %d \n",b);
-    
-}  
+    printf("\nA = %d \n", a);
+    printf("B = %d \n", b);
+}
