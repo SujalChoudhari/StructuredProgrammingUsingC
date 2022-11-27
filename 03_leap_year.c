@@ -1,5 +1,29 @@
-// Design and develop a C program to read a year as an input and find whether it is leap year or not.
-// Also consider the end of the centuries. Write algorithm and draw flowchart for the same.
+/**
+ * 
+ * Question
+ * --------
+ * Design and develop a C program to read a year as an 
+ * input and find whether it is leap year or not.
+ * Also consider the end of the centuries. 
+ * Write algorithm and draw flowchart for the same.
+ * 
+ * 
+ * Algorithm
+ * ---------
+ * 1. START
+ * 2. PRINT Enter a year
+ * 3. INPUT year
+ * 4. IF (year is divisible by 400)
+ *       THEN PRINT Year is a leap year
+ * 5. ELSE IF (year is divisible by 100 (and not 400))
+ *       THEN PRINT Year is not a leap Year
+ * 6. ELSE IF (year is not divisible by 100 but is by 4)
+ *       THEN PRINT Year is a leap year
+ * 7. ELSE
+ *       Then PRINT Year is not a leap year
+ * 8. END
+ * 
+*/
 
 #include <stdio.h>
 int main(void) {
@@ -7,21 +31,15 @@ int main(void) {
    printf("Enter a year: ");
    scanf("%d", &year);
 
-   // leap year if perfectly divisible by 400
    if (year % 400 == 0) {
       printf("%d is a leap year.", year);
    }
-   // not a leap year if divisible by 100
-   // but not divisible by 400
    else if (year % 100 == 0) {
       printf("%d is not a leap year", year);
    }
-   // leap year if not divisible by 100
-   // but divisible by 4
    else if (year % 4 == 0) {
       printf("%d is a leap year", year);
    }
-   // all other years are not leap years
    else {
       printf("%d is not a leap year", year);
    }

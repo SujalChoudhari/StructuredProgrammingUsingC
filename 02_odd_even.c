@@ -1,6 +1,26 @@
-//Write a program to check odd or even number:
-//(a) using modulus operator 
-//(b) using conditional operator
+/**
+ * Question
+ * --------
+ * Write a program to check odd or even number:
+ * (a) using modulus operator 
+ * (b) using conditional operator
+ * 
+ * 
+ * 
+ * Algorithm
+ * ---------
+ * 
+ * 1. START
+ * 2. PRINT Enter a number
+ * 3. INPUT number
+ * 4. IF reminder of (number/2) is 0
+ *      THEN
+ *      PRINT Number is an even number
+ * 5. ELSE
+ *      PRINT Number is an odd number
+ * 6. END
+*/
+
 
 #include <stdio.h>
 
